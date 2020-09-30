@@ -22,5 +22,9 @@
 ![欧拉](https://github.com/fhdyd/learningblog/blob/gh-pages/images/QQ%E5%9B%BE%E7%89%8720200930221325.png)
 
 其中，设系数：
+![欧拉](https://github.com/fhdyd/learningblog/blob/gh-pages/images/ak.png)
+即可得对应频率的信息。
+求对应系数方法：
 
+将频域信号再变回去只要进行傅里叶逆变换即可。
 
