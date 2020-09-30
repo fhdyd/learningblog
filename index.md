@@ -18,5 +18,9 @@
 引入欧拉公式：
 ![欧拉](https://github.com/fhdyd/learningblog/blob/gh-pages/images/%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F.png)
 欧拉公式以复数形式可以同时正余弦函数，进而使表示更加方便。
+得到傅里叶变换：
 ![欧拉](https://github.com/fhdyd/learningblog/blob/gh-pages/images/QQ%E5%9B%BE%E7%89%8720200930221325.png)
+
+其中，设系数：
+
 
