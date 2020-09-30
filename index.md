@@ -10,10 +10,13 @@
 对傅里叶变换的学习
 
 对于一个信号可以把他分解成直流加正弦信号的组合，即：
+
 ![f](https://github.com/fhdyd/learningblog/blob/gh-pages/images/f.png)
 
 将上式变为：
+
 ![a](https://github.com/fhdyd/learningblog/blob/gh-pages/images/QQ%E5%9B%BE%E7%89%8720200930220245.png)
+
 通过an和bn即可得到我们所要的对应频率的振幅和相位。振幅是an和bn的平方和开方，相位是-an/bn的反正切。
 
 引入欧拉公式：
