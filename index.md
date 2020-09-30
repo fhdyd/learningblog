@@ -11,3 +11,5 @@
 
 对于一个信号可以把他分解成直流加正弦信号的组合，即：
 ![f](https://github.com/fhdyd/learningblog/blob/gh-pages/images/f.png)
+
+将上式变为：
