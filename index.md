@@ -20,3 +20,8 @@
 通过an和bn即可得到我们所要的对应频率的振幅和相位。振幅是an和bn的平方和开方，相位是-an/bn的反正切。
 
 引入欧拉公式：
+
+![欧拉](https://github.com/fhdyd/learningblog/blob/gh-pages/images/%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F.png)
+
+欧拉公式以复数形式可以同时表示an和bn，进而是表示更加方便。
+
