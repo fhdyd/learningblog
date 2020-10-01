@@ -42,4 +42,11 @@
 
 ![](https://github.com/fhdyd/learningblog/blob/gh-pages/images/image.png)
 
-![]()
+![](https://github.com/fhdyd/learningblog/blob/gh-pages/images/iamge3.png)
+
+DFT和FFT
+
+对于取样长度为N的函数对其进行DFT，其算法时间复杂度为O(N^2)，算法较为复杂，消耗较多的性能，由此产生了更加有效的FFT算法。
+通过式子转化，一个DFT变换可以变成两个DFT变化，直至只剩两个点的DFT，进而使时间复杂度降低到O(NlogN)。
+
+
