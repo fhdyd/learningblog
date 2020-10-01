@@ -40,4 +40,6 @@
 对于计算机而言，其中存储的信号只能是离散引号，因此要得到频域图只能进行离散傅里叶变换(DFT)。
 将连续的t变为间断的n，可得：
 
+![](https://github.com/fhdyd/learningblog/blob/gh-pages/images/image.png)
 
+![]()
