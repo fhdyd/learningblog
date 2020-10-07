@@ -72,6 +72,7 @@ DFT和FFT
 没整明白这段代码是干嘛的
 
 //
+
 double minv = 0.0, maxv = 0.0;
 	double* minp = &minv;
 	double* maxp = &maxv;
