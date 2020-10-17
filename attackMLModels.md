@@ -7,3 +7,7 @@
 ![](https://github.com/fhdyd/learningblog/blob/gh-pages/images/QQ%E6%88%AA%E5%9B%BE20201017162426.png)
 
 但跟训练模型不一样的是，这次要调节的参数是输入的图片而不是神经网络的参数。不是损失函数越小越好，为了得到最小的损失函数而过度调整图片会产生明显的影响容易被人察觉，所以要对图片进行一定的限制，即：
+![](https://github.com/fhdyd/learningblog/blob/gh-pages/images/QQ%E6%88%AA%E5%9B%BE20201017163844.png)
+
+常用的求d的方法有两种，即L2-norm和L-infinity，对于用L2-norm和L-infinity计算得到同样值的两张图片，显然前者更容易被人眼察觉，所以用L-infinity限制更好。
+新的图片满足
