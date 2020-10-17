@@ -13,3 +13,6 @@
 新的图片满足方程![](https://github.com/fhdyd/learningblog/blob/gh-pages/images/QQ%E6%88%AA%E5%9B%BE20201017165221.png)
 
 通过梯度下降就可以得到攻击图片，在梯度下降的过程中如果限制条件不满足就对图片调整到满足条件再进行下一次梯度下降。
+使用FGSM方法只用更新一次梯度就可以得到攻击图片，原理如下：
+
+![](https://github.com/fhdyd/learningblog/blob/gh-pages/images/QQ%E6%88%AA%E5%9B%BE20201017170138.png)
