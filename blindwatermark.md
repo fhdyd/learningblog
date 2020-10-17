@@ -69,21 +69,3 @@ DFT和FFT
 
 第五个程序傅里叶变换水印。对于灰度图只有一个通道，dft变成实数复数双通道，在上面添加文字水印两次，我试了下只添加一次提出来的水印会变模糊，然后进行逆变换生成水印图片。提取水印的时候进行傅里叶逆变换。
 
-没整明白这段代码是干嘛的
-double minv = 0.0, maxv = 0.0;
-	double* minp = &minv;
-	double* maxp = &maxv;
-	cv::minMaxIdx(complete, minp, maxp);
-	std::cout << minv << "  " << maxv << std::endl;
-
-	// 添加水印文字————中心对称
-	int meanvalue = cv::mean(complete)[0], num;
-	std::cout << meanvalue << std::endl;
-	if (meanvalue > 128)
-	{
-		num = -log(abs(minv));
-	}
-	else
-	{
-		num = log(abs(maxv));
-	}
