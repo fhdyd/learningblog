@@ -10,4 +10,6 @@
 ![](https://github.com/fhdyd/learningblog/blob/gh-pages/images/QQ%E6%88%AA%E5%9B%BE20201017163844.png)
 
 常用的求d的方法有两种，即L2-norm和L-infinity，对于用L2-norm和L-infinity计算得到同样值的两张图片，显然前者更容易被人眼察觉，所以用L-infinity限制更好。
-新的图片满足
+新的图片满足方程![](https://github.com/fhdyd/learningblog/blob/gh-pages/images/QQ%E6%88%AA%E5%9B%BE20201017165221.png)
+
+通过梯度下降就可以得到攻击图片，在梯度下降的过程中如果限制条件不满足就对图片调整到满足条件再进行下一次梯度下降。
